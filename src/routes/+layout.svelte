@@ -1,6 +1,6 @@
 <script>
 	import '../app.postcss';
-	import { base } from '$app/paths';
+	import { base } from '$my-website/paths';
 
 	// Highlight JS
 	import hljs from 'highlight.js/lib/core';
