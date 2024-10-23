@@ -23,9 +23,8 @@
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 <nav>
-	<a href="{base}/">Home</a>
-	<a href="{base}/photoapp">Photoapp</a
-	
+<a href="{base}/">Home</a>
+<a href="{base}/photoapp">Photoapp</a>
 	
 </nav>
 
