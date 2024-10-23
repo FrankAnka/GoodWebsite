@@ -1,5 +1,6 @@
 <script>
 	import '../app.postcss';
+	import { base } from '$app/paths';
 
 	// Highlight JS
 	import hljs from 'highlight.js/lib/core';
@@ -22,8 +23,9 @@
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 <nav>
-	<a href="/">Hem</a>
-	<a href="/photoapp">Photo App</a>
+	<a href="{base}/">Home</a>
+	<a href="{base}/photoapp">Photoapp</a
+	
 	
 </nav>
 
