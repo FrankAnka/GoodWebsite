@@ -22,15 +22,14 @@
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
-<div class="navbar">
-<nav>
+
+<nav class="navbar">
 <a href="{base}/">Home</a>
 <a href="{base}/photoapp">Photoapp</a>
 <a href="{base}/register">Register</a>
 <a href="{base}/login">Login</a>
 	
 </nav>
-</div>
 <slot />
 <style>
 	
@@ -41,8 +40,19 @@
   width: 100vw;
 }    
 .navbar{
-	display: flexbox;
+	display: flex;
+	font-size: larger;
 	align-items:center;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	background-color:rgb(0, 0, 0);
+	min-height: 30px;
+}
+.navbar a:hover{
+	font-size: x-large;
+	color: cornflowerblue;
+	font-style: italic;
+}
+.navbar a:active{
+	color:aqua ;
 }
 </style>
