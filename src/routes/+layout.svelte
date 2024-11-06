@@ -22,10 +22,27 @@
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
+<div class="navbar">
 <nav>
 <a href="{base}/">Home</a>
 <a href="{base}/photoapp">Photoapp</a>
+<a href="{base}/register">Register</a>
+<a href="{base}/login">Login</a>
 	
 </nav>
-
+</div>
 <slot />
+<style>
+	
+:global(body), :global(html){
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  width: 100vw;
+}    
+.navbar{
+	display: flexbox;
+	align-items:center;
+	justify-content: space-between;
+}
+</style>
