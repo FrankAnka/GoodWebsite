@@ -29,6 +29,7 @@
 <a href="{base}/register">Register</a>
 <a href="{base}/login">Login</a>
 <a href="{base}/shoppinglist">ShoppingList</a>
+<a href="{base}/memory">Memory</a>
 </nav>
 <slot />
 <style>

@@ -1,8 +1,9 @@
 <script>
 let varor=[{}];
 let nyvara
-import { fade } from "svelte/transition";
+import { fade, slide } from "svelte/transition";
 function AddItem() {
+    nyvara=nyvara.trim()
     if (nyvara.length>0)
         varor=[...varor,{name:nyvara,type:"köpa",prio:20}]
         nyvara=""
@@ -17,7 +18,7 @@ function MoveUp(target){
 }
 function MoveDown(target){
     if(target.prio<10);
-        target.prio+=1
+        target.prio+=1    
     varor=varor }
 
 function MoveItem(target){
@@ -54,7 +55,7 @@ return a.prio-b.prio
 <ol>
     {#each varor as vara}
     {#if (vara.type== "köpa")}
-<li transition:fade> 
+<li transition:slide> 
     <input class="Remove" type="submit" value="X" on:click={RemoveItem(vara)}>
     {vara.name} 
     <input class="Move" type= "submit" value = "→" on:click={MoveItem(vara)}>
@@ -77,7 +78,7 @@ return a.prio-b.prio
 <ul>
     {#each varor as vara}
     {#if (vara.type== "köpt")}
-<li transition:fade>
+<li transition:slide>
     <input class="Move" type= "submit" value = ← on:click={MoveItem(vara)}>     
     {vara.name}
     <input class="Remove" type="submit" value="X" on:click={RemoveItem(vara)}>  
@@ -95,6 +96,7 @@ return a.prio-b.prio
     <input class="button" type="submit"  value ="Lägg till vara">
 </form>
 </div>
+
 
 </main>
 
