@@ -117,7 +117,7 @@ let cardBack="https://i.pinimg.com/originals/fd/7a/48/fd7a48f23082646b4a827a733d
 
 </div>
 <button on:click={Restart}>
-<img src="Hollow knigt New Game Transparent.png" alt="New Game">
+<p>New Game</p>
 </button>
 
 {#if (redWin)}
@@ -186,10 +186,8 @@ button{
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 justify-self: center;
 align-self: center ;
-border-radius: 50px;
 width: 100px;
-margin-top: 15px;
-font-size: larger;
+font-size: large;
 }
 h1{
     display: flex;
@@ -227,7 +225,7 @@ aside{
 }
 
 p{
-    font-size: 30px;
+    font-size: 25px;
 }
 .blue{
     background-color: blue;

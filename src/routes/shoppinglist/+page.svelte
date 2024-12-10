@@ -102,7 +102,9 @@ return a.prio-b.prio
 
 
 <style>
-
+main{
+    border: 5px solid burlywood ;
+}
 .container h1{
     justify-self: center;
     background-color: darkslategrey;
@@ -110,11 +112,13 @@ return a.prio-b.prio
     align-self: center;
     padding: 5px;
     font-size: larger;
+
 }
 .button{
     background-color: darkslategray;
     border-radius: 10px;
     height: 40px;
+    border: 3px solid burlywood ;
 }
 .container{
     

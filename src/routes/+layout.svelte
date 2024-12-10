@@ -30,6 +30,7 @@
 <a href="{base}/login">Login</a>
 <a href="{base}/shoppinglist">ShoppingList</a>
 <a href="{base}/memory">Memory</a>
+<a href="{base}/chat">ChatBot</a>
 </nav>
 <slot />
 <style>
