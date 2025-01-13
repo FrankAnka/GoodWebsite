@@ -31,6 +31,7 @@
 <a href="{base}/shoppinglist">ShoppingList</a>
 <a href="{base}/memory">Memory</a>
 <a href="{base}/chat">ChatBot</a>
+<a href="{base}/search">Search</a>
 </nav>
 <slot />
 <style>
@@ -48,6 +49,7 @@
 	justify-content: space-evenly;
 	background-color:rgb(0, 0, 0);
 	min-height: 30px;
+
 }
 .navbar a:hover{
 	font-size: x-large;

@@ -15,7 +15,8 @@ const config = {
 		adapter: adapter({
 			pages: 'docs',
 			assets: 'docs',
-			fallback: null
+			fallback: null,
+			strict:false
 		}),
 		
 	},

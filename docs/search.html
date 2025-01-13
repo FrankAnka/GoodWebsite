@@ -6,7 +6,8 @@
 		<meta name="viewport" content="width=device-width" />
 		
 		<link href="./_app/immutable/assets/0.DTgyefbN.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/6.CoibC5Gq.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.DKzJAwCp.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/11.Dr_6VVqw.css" rel="stylesheet">
 		<link rel="modulepreload" href="./_app/immutable/entry/start.C1TSXMGY.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/entry.3o2TncEr.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.DTJkbwkG.js">
@@ -15,11 +16,13 @@
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.t5AtMEud.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.qYkNxGDW.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_commonjsHelpers.CqkleIqs.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/6.D8pIcxSW.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.6H_P85Eu.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/11.BYGjBj2r.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/each.D6YF6ztN.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/pokesave.BxfT3HIo.js">
 	</head>
 	<body data-sveltekit-preload-data="hover" data-theme="skeleton">
-		<div style="display: contents">  <nav class="navbar svelte-1qm1xmc" data-svelte-h="svelte-98v0av"><a href="./" class="svelte-1qm1xmc">Home</a> <a href="./photoapp" class="svelte-1qm1xmc">Photoapp</a> <a href="./register" class="svelte-1qm1xmc">Register</a> <a href="./login" class="svelte-1qm1xmc">Login</a> <a href="./shoppinglist" class="svelte-1qm1xmc">ShoppingList</a> <a href="./memory" class="svelte-1qm1xmc">Memory</a> <a href="./chat" class="svelte-1qm1xmc">ChatBot</a> <a href="./search" class="svelte-1qm1xmc">Search</a></nav> <main><div class="chatbox svelte-1nj789c"><section class="svelte-1nj789c"><article class="svelte-1nj789c"><p>Please tell me what's been bothering you.</p></article> <article id="visible" class="svelte-1nj789c" data-svelte-h="svelte-vcci1g"><span class="circle svelte-1nj789c"></span> <span class="circle svelte-1nj789c"></span> <span class="circle svelte-1nj789c"></span></article></section> <form method="post"><input type="text" style="color: black;" class="svelte-1nj789c" value=""></form> <button class="svelte-1nj789c" data-svelte-h="svelte-1ta7axi">Reset Chat</button></div> </main> 
+		<div style="display: contents">  <nav class="navbar svelte-1qm1xmc" data-svelte-h="svelte-98v0av"><a href="./" class="svelte-1qm1xmc">Home</a> <a href="./photoapp" class="svelte-1qm1xmc">Photoapp</a> <a href="./register" class="svelte-1qm1xmc">Register</a> <a href="./login" class="svelte-1qm1xmc">Login</a> <a href="./shoppinglist" class="svelte-1qm1xmc">ShoppingList</a> <a href="./memory" class="svelte-1qm1xmc">Memory</a> <a href="./chat" class="svelte-1qm1xmc">ChatBot</a> <a href="./search" class="svelte-1qm1xmc">Search</a></nav> <main class="svelte-1bk9ro0"><img class="pokeLogo svelte-1jeilse" src="https://cdn.freebiesupply.com/images/large/2x/pokemon-logo-black-transparent.png" alt="POkemon"> <form><input class="Search svelte-1jeilse" type="text" placeholder="Sök upp en pokemon"></form> <footer class="svelte-1jeilse"> <button class="reset svelte-1jeilse" data-svelte-h="svelte-xx8yks">Reset</button> </footer></main> <div class="backdrop svelte-1bk9ro0"></div> 
 			
 			<script>
 				{
@@ -29,14 +32,14 @@
 
 					const element = document.currentScript.parentElement;
 
-					const data = [null,null];
+					const data = [null,null,null];
 
 					Promise.all([
 						import("./_app/immutable/entry/start.C1TSXMGY.js"),
 						import("./_app/immutable/entry/app.KpfoKn3w.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
-							node_ids: [0, 6],
+							node_ids: [0, 2, 11],
 							data,
 							form: null,
 							error: null
