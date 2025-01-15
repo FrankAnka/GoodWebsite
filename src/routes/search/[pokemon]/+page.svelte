@@ -26,7 +26,7 @@ onMount(() => {
 function home(){
 goto(base+"/search/")
 }
-async function addLink() {
+async function addLink(nameInfo) {
     await onMount
     let targetMon= $page.params.pokemon
     last5=last5.filter(item => item.name !==targetMon);
@@ -35,7 +35,7 @@ async function addLink() {
             last5=last5
     }
 
-    last5=[...last5,{link:base+"/search/"+$page.params.pokemon.toLowerCase(),name:$page.params.pokemon}]
+    last5=[...last5,{link:base+"/search/"+$page.params.pokemon.toLowerCase(),name:nameInfo}]
 
     $search_store=JSON.stringify(last5)
     
@@ -47,7 +47,7 @@ async function addLink() {
     <p>.. waiting</p>
 {:then pokemon} 
 <button class="home" on:click={home}>Home</button>
-<div style="display: none;">{addLink()}</div>
+<div style="display: none;">{addLink(pokemon.response.name)}</div>
 <h1>{pokemon.response.name}</h1>
 
 
