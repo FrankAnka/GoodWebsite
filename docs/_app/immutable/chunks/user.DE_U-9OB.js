@@ -1,0 +1,1 @@
+import{w as e}from"./paths.D-3LR_C6.js";const o=(window==null?void 0:window.localStorage.getItem("users"))??"",r=e(o);r.subscribe(s=>{window==null||window.localStorage.setItem("users",s)});export{r as u};

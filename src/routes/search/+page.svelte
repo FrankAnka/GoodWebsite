@@ -2,6 +2,8 @@
 import {goto} from  "$app/navigation"
 import { onMount } from "svelte";
 import {search_store} from  "$lib/pokesave"
+import { base } from '$app/paths';
+
 let search;
 let last5=[]
 onMount(()=>{
@@ -18,9 +20,10 @@ function resetSearch(){
 
 
 
+
 </script>
 <img class="pokeLogo" src="https://cdn.freebiesupply.com/images/large/2x/pokemon-logo-black-transparent.png" alt="POkemon">
-<form on:submit|preventDefault={()=> goto('/search/'+search)}>
+<form on:submit|preventDefault={()=> goto(base+'/search/'+search)}>
     <input class="Search" type="text" placeholder="Sök upp en pokemon" bind:value={search} />
   </form>
 
