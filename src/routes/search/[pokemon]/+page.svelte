@@ -28,7 +28,7 @@ goto(base+"/search/")
 }
 async function addLink(nameInfo) {
     await onMount
-    let targetMon= $page.params.pokemon
+    let targetMon= nameInfo
     last5=last5.filter(item => item.name !==targetMon);
     if(last5.length==5){
             last5.shift()
