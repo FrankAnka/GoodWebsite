@@ -24,7 +24,7 @@ onMount(() => {
 
 });
 function home(){
-goto("/search/")
+goto(base+"/search/")
 }
 async function addLink() {
     await onMount
