@@ -26,8 +26,7 @@ function resetSearch(){
 <form on:submit|preventDefault={()=> goto(base+'/search/'+search)}>
     <input class="Search" type="text" placeholder="Sök upp en pokemon" bind:value={search} />
   </form>
-<a href="{base}/search/{search}">adsasdsdsa</a>
-<footer>
+  <footer>
 {#each last5 as link}
 <a class="lastSearch" href="{link.link}" >{link.name}</a>
 {/each}
