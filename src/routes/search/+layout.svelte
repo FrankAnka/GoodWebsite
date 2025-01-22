@@ -1,9 +1,13 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
+
 <main>
     <slot>
-
     </slot>
 </main>
-
+{base}
 <div class="backdrop"></div>
 
 
