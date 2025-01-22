@@ -9,7 +9,7 @@
 	import { goto } from "$app/navigation";
     let last5=[]
 
-
+console.log('base',base)
 
 
 onMount(() => {
