@@ -26,7 +26,6 @@ function resetSearch(){
 <img class="pokeLogo" src="https://cdn.freebiesupply.com/images/large/2x/pokemon-logo-black-transparent.png" alt="POkemon">
 <form on:submit|preventDefault={()=> goto(base+'/search/'+search)}>
     <input class="Search" type="text" placeholder="Sök upp en pokemon" bind:value={search} />
-    {console.log(search)}
   </form>
   <footer>
 {#each last5 as link}
