@@ -7,7 +7,6 @@
     <slot>
     </slot>
 </main>
-{base}
 <div class="backdrop"></div>
 
 
