@@ -32,7 +32,7 @@
 <a href="{base}/memory">Memory</a>
 <a href="{base}/chat">ChatBot</a>
 <a href="{base}/search">Search</a>
-<a href="{base}/spel">Spel</a>
+<a href="{base}/Spel">Spel</a>
 <a href="{base}/ux-login">UX Login</a>
 </nav>
 <slot />
