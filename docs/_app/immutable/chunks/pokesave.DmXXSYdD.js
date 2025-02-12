@@ -1,0 +1,1 @@
+import{w as e}from"./index.B9BBB3n8.js";const o=[(window==null?void 0:window.sessionStorage.getItem("search"))??""],r=e(o);r.subscribe(s=>{window==null||window.sessionStorage.setItem("searchSave",s)});export{r as s};

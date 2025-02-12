@@ -1,6 +1,6 @@
 <script>
 import { flip } from "svelte/animate";
-	import Page from "../+page.svelte";
+import Page from "../+page.svelte";
 
 let cards=[]
 let bluePoints=0
