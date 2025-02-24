@@ -174,8 +174,8 @@ function toggleCart(){
     position: absolute;
     width: 5%;
     height:5%;
-    top: 20px;
-    left: 97%;
+    top: 20;
+    left: 98%;
     
     
 }
