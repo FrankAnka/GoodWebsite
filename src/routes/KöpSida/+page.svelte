@@ -168,11 +168,21 @@ function toggleCart(){
     flex-direction: column;
     background-image: url("https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg?ssl=1");
     background-size: cover;
-
+    }
+    .Cartbutton{
+    display:flex;
+    position: absolute;
+    width: 5%;
+    height:5%;
+    top: 10px;
+    left: 99%;
+    
+    
+}
 }
 
 
-}
+
 .Cart{
     display: flex;
     flex-direction:column;
