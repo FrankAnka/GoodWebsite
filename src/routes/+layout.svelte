@@ -52,7 +52,6 @@
 	justify-content: space-evenly;
 	background-color:rgb(0, 0, 0);
 	min-height: 30px;
-	width: 100vw;
 
 }
 .navbar a:hover{
