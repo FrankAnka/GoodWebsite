@@ -34,6 +34,7 @@
 <a href="{base}/search">Search</a>
 <a href="{base}/Spel">Spel</a>
 <a href="{base}/ux-login">UX Login</a>
+<a href="{base}/KöpSida">KöpSida</a>
 </nav>
 <slot />
 <style>
