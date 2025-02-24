@@ -213,7 +213,7 @@ function toggleCart(){
 .Shop{
     display: grid;
     width: 85%;
-    height:80%;
+    height:70%;
     margin: 5%;
     grid-template-columns: repeat(4, 20%);
     grid-template-rows: repeat(4,60%);
