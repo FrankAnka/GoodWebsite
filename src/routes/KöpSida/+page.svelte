@@ -163,7 +163,7 @@ function toggleCart(){
     .ShopPage{
     display: flex;
     width: 700px;
-    height: 1600px;
+    height: 1400px;
     align-items: center;
     flex-direction: column;
     background-image: url("https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg?ssl=1");
@@ -178,7 +178,7 @@ function toggleCart(){
     left: 97%;
     
     
-}
+}}
 
 
 }
