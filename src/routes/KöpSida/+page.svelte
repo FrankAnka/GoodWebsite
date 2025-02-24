@@ -172,7 +172,7 @@ function toggleCart(){
     }
     .Cartbutton{
     display:flex;
-    position: relative;
+    position: absolute;
     width: 10%;
     height:10%;
     top: 7%;
