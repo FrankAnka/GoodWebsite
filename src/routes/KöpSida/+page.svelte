@@ -175,7 +175,7 @@ function toggleCart(){
     width: 50px;
     height:50px;
     top: 20;
-    left: 50%;
+    left: 560px;
     
     
 }
