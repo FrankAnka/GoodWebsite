@@ -173,8 +173,8 @@ function toggleCart(){
     display:flex;
     position: absolute;
     width: 50px;
-    height:50x;
-    top: 20;
+    height:50px;
+    top: 20px;
     left: 10%;
     
     
