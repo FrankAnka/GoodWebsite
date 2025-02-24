@@ -172,8 +172,8 @@ function toggleCart(){
     .Cartbutton{
     display:flex;
     position: absolute;
-    width: 10%;
-    height:10%;
+    width: 50px;
+    height:50x;
     top: 20;
     left: 10%;
     
